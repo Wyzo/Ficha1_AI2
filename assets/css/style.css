@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body {
+    background-color: #1F1F20;
+}
+
+.centro_index {
+    background: linear-gradient(357deg, 
+    rgba(30,30,30,1) 0%, 
+    rgba(34,34,35,1) 17%, 
+    rgba(4,0,65,0) 100%), 
+    url('/assets/img/filme1.jpg');
+    background-size: cover;
+}
+
+#centro_index {
+    transition: background-image 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    opacity: 1;
+}
+
+#centro_index.fade {
+    opacity: 0;
+}
+
+
+.container {
+    width: 85%;
+    margin: 0px auto;
+}
+
+header {
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.topo ul {
+    list-style: none;
+    color: #78797F;
+    align-items: center;
+}
+
+.topo ul, li {
+    margin-left: 15px;
+}
+
+.topo a {
+    font-size: 1.1em;
+    color: #c6c6c6;
+    transition: 0.5s all ease;
+}
+
+.topo a:hover {
+    color: white;
+    border-bottom: solid 3px rgb(185, 24, 3);
+}
+
+.info_nav {
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 50%;
+}
+
+.info_nav2 {
+    width: 50%;
+    text-align: end;
+}
+
+.info_nav2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.info_filme {
+    margin-top: 20%;
+    padding-bottom: 20%;
+}
+
+.info_filme h1 {
+    width: 50%;
+    font-size: 4em;
+}
+
+.info_filme p {
+    font-size: 1.5em;
+}
+
+.info_filme h1, p, a {
+    text-decoration: none;
+    color: white;
+}
+
+.info_filme_imagem {
+    margin-top: 20px;
+}
+
+.primary {
+    background-color: rgb(185, 24, 3);
+    padding: 10px;
+    border-radius: 10px;
+    width: 50px;
+    transition: 0.5s all ease;
+}
+
+.primary:hover {
+    background-color: rgb(137, 16, 0);
+}
+
+.second {
+    width: 50px;
+    border: 1px solid rgb(185, 24, 3);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+span {
+    color: rgb(185, 24, 3);
+}
+
+
+.titulo_filmes_cartaz {
+    margin-top: 40px;
+    display: inline-block;
+    color: white;
+}
+
+.filmes {
+    width: 85%;
+    margin: 0px auto;
+}
+
+.cartoes {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cartao {
+    overflow: hidden;
+}
+
+.cartao img {
+    transition: 0.4s all ease-in-out;
+    width: 15vw;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.cartao h1, p{
+    color: #78797F;
+}
+
+.cartao img:hover {
+    border-radius: 20px;
+    transform: scale(1.03);
+    box-shadow: 0px 0px 104px -9px rgba(255,0,0,0.58);
+}
+
+footer {
+    background-color: #0f0f0f;
+    color: #78797F;
+}
+
+.container_footer {
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin-right: 7px;
+}
+
+.esquerda {
+    width: 33.3%;
+    text-align: start;
+}
+
+.centro {
+    width: 33.3%;
+    text-align: center;
+}
+
+.direita {
+    width: 33.3%;
+    text-align: end;
+}
+
+.direita a {
+    color: #78797F;
+}
+
+.container_footer {
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
