@@ -35,7 +35,10 @@ function iniciarSliderAutomatico() {
         const novaImagem = imagens[indiceAtual];
         titulo_filme.innerHTML = titulos[indiceAtual];
         tipo_filme.innerHTML = tipos[indiceAtual];
-        div_centro.style.backgroundImage = `linear-gradient(357deg, rgba(30,30,30,1) 0%, rgba(34,34,35,1) 17%, rgba(4,0,65,0) 100%), url(/${novaImagem})`;
+        div_centro.style.backgroundImage = `linear-gradient(360deg, 
+    rgba(15,17,43,1) 0%, 
+    rgba(15,17,43,1) 0%, 
+    rgba(4,0,65,0) 100%), url(/${novaImagem})`;
         indiceAtual = (indiceAtual + 1) % imagens.length; 
     }
 
