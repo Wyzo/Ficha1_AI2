@@ -4,16 +4,14 @@ function iniciarSliderAutomatico() {
     const tipo_filme = document.getElementById("tipo_filme");
 
     const imagens = 
-    [   "assets/img/filme5.png", 
-        "assets/img/filme2.jpg",
+    [   "assets/img/filme2.jpg",
         "assets/img/filme3.jpg",
         "assets/img/filme4.jpg",
         "assets/img/filme5.jpg",
-        "assets/img/filme6.jpeg"];
+        "assets/img/filme7.jpg"];
 
     const titulos = 
-    [   "Top Gun - Maverick",
-        "Blade Runner 2045",
+    [  "Blade Runner 2045",
         "O criador",
         "Rogue One - Uma história star wars",
         "O Mandalorian",
@@ -21,15 +19,14 @@ function iniciarSliderAutomatico() {
     ];
 
     const tipos = 
-    [   "Ação, Drama",
-        "História, Drama",
+    [ "História, Drama",
         "Ficção-ciêntifica",
         "Ficção-ciêntifica",
         "Ação",
         "Ação"
     ];
 
-    let indiceAtual = 0;
+    let indiceAtual = 0; 
 
     function trocarImagem() {
         const novaImagem = imagens[indiceAtual];
